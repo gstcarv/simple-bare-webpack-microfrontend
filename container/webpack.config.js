@@ -10,8 +10,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        products: 'products@http://localhost:8081/remoteEntry.js',
-        cart: 'cart@http://localhost:8082/remoteEntry.js'
+        products: 'products@https://past-stretch.surge.sh/remoteEntry.js',
+        cart: 'cart@https://vigorous-sort.surge.sh/remoteEntry.js'
       }
     }),
     new HtmlWebpackPlugin({
