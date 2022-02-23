@@ -2,6 +2,14 @@
 
 Simple webpack microfrontend project using run-time integration
 
+## Deploy Preview
+
+[Container Host](hapless-cobweb.surge.sh) - The root project container build
+
+[Products Remote](https://past-stretch.surge.sh/) - Products microfrontend
+
+[Cart Remote](https://vigorous-sort.surge.sh/) - Cart microfrontend
+
 ## Instructions
 
 To be able to start the project, you must install all the dependencies from all existing remote projects and the container
